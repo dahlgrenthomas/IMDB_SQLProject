@@ -7,11 +7,8 @@ from imdb_top_1000
 WHERE Genre like '%Action%'
 ORDER BY 4 DESC
 
--- Looking at the average IMDB score compared to number of votes
 
-SELECT Series_Title, Genre, IMDB_Rating, Gross, Gross/IMDB_Rating AS Gross 
-from imdb_top_1000
-ORDER BY 5 DESC
+
 
 
 
